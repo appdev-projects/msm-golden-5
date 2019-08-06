@@ -5,7 +5,7 @@
 #  id          :integer          not null, primary key
 #  description :text
 #  duration    :integer
-#  image       :string
+#  image_url   :string
 #  title       :string
 #  year        :integer
 #  created_at  :datetime         not null

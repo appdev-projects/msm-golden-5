@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2019_08_05_220337) do
     t.string "name"
     t.string "dob"
     t.text "bio"
-    t.string "image"
+    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(version: 2019_08_05_220337) do
     t.string "name"
     t.string "dob"
     t.text "bio"
-    t.string "image"
+    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -69,7 +69,7 @@ ActiveRecord::Schema.define(version: 2019_08_05_220337) do
     t.integer "year"
     t.integer "duration"
     t.text "description"
-    t.string "image"
+    t.string "image_url"
     t.integer "director_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

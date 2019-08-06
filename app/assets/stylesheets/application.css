@@ -12,3 +12,11 @@
  *
  *= require_self
  */
+
+div {
+  padding: 2px;
+}
+
+body {
+  margin-left: 1.5em;
+}
